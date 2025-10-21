@@ -1,24 +1,16 @@
 {
-  "name": "escape-html",
-  "description": "Escape string for use in HTML",
-  "version": "1.0.3",
-  "license": "MIT",
-  "keywords": [
-    "escape",
-    "html",
-    "utility"
-  ],
-  "repository": "component/escape-html",
-  "devDependencies": {
-    "benchmark": "1.0.0",
-    "beautify-benchmark": "0.2.4"
-  },
-  "files": [
-    "LICENSE",
-    "Readme.md",
-    "index.js"
-  ],
+  "name": "string-analyzer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "bench": "node benchmark/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
