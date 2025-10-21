@@ -1,5 +1,5 @@
 const express = require('express');
-const crypto = require('crypto');
+const fetch = require('node-fetch');
 const path = require('path');
 
 // --- Application Setup ---
@@ -396,3 +396,4 @@ app.listen(PORT, () => {
     console.log(`String Analyzer Service running on http://localhost:${PORT}`);
     console.log(`Endpoints ready: POST /strings | GET /strings/{id} | GET /strings?filters | GET /strings/filter-by-natural-language?query=... | DELETE /strings/{stringValue}`);
 });
+
